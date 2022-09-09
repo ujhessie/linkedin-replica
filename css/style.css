@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 :root{
     --fundo-escuro: #000;
     --fundo-card: #1d2226;
@@ -17,6 +18,8 @@
     font-family: sans-serif;
     color: var(--texto-principal);
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
 }
 
 
@@ -88,4 +91,64 @@ body {
     top: 3px;
     padding: 3px;
     border-left: 1px solid var(--texto-secundario);
+}
+
+
+
+
+
+.conteudo {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+/* SECTIONS */
+section {
+    width: 90%;
+    max-width: 780px;
+    background-color: var(--fundo-card);
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 24px;
+}
+
+    /* ----------- PROFILE */
+    .perfil {
+        padding: 0;
+        overflow: hidden;
+    }
+
+
+.imagens-perfil {
+    padding: 0;
+    position: relative;
+}
+.img-capa {
+    width: 100%;
+    aspect-ratio: 780/230;
+    object-fit: cover;
+}
+.img-perfil {
+    width: 25%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -34px;
+    left: 30px;
+    border: 5px solid var(--fundo-card);
+    box-sizing: border-box;
+}
+
+
+.informacoes-perfil {
+    padding: 40px 10px 10px 10px;
+}
+.nome-usuario {
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+.atividades {
+    font-size: 16px;
+    padding-bottom: 5px;
 }
