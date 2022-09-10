@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 :root{
     --fundo-escuro: #000;
     --fundo-card: #1d2226;
@@ -110,6 +110,7 @@ section {
     margin: 20px auto;
     border-radius: 10px;
     padding: 24px;
+    box-sizing: border-box;
 }
 
     /* ----------- PROFILE */
@@ -142,9 +143,29 @@ section {
 
 
 .informacoes-perfil {
-    padding: 40px 10px 10px 10px;
+    padding: 40px 20px;
+    display: flex;
 }
+.informacoes {
+    width: 70%;
+} .empresas {
+    width: 30%;
+}
+.empresa {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 5px;
+}
+.img-empresa {
+    width: 40px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+
 .nome-usuario {
+    font-weight: bold;
     font-size: 25px;
     padding-bottom: 5px;
 }
@@ -152,3 +173,37 @@ section {
     font-size: 16px;
     padding-bottom: 5px;
 }
+.fala-sobre, .cidade-pais {
+    font-weight: 400;
+    color: var(--texto-secundario);
+    padding-bottom: 5px;
+}
+.contatos {
+    color: var(--primario);
+    padding-bottom: 5px;
+}
+.seguidores-conexoes {
+    padding-bottom: 5px;
+}
+.mensagem-mais {
+    margin-top: 15px;
+}
+.mensagem {
+    background-color: var(--primario);
+    color: var(--fundo-card);
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 2px solid var(--primario);
+}
+.mais {
+    background-color: var(--fundo-card);
+    color: var(--primario);
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 2px solid var(--primario);
+}
+
+
+
+
+/* ======= DESTAQUES ======== */
