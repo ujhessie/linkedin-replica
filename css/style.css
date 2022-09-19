@@ -207,3 +207,46 @@ section {
 
 
 /* ======= DESTAQUES ======== */
+.cards-destaques {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    border: 1px solid var(--texto-secundario);
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 230px;
+}
+.categoria-destaque {
+    padding: 10px;
+    color: var(--texto-secundario);
+    font-weight: 400;
+    font-size: .8rem;
+}
+.legenda-card {
+    padding: 0 10px 10px 10px;
+    font-weight: 400;
+}
+.img-card-destaque {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+.comentarios-curtidas {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    color: var(--texto-secundario);
+    font-weight: 300;
+}
+.curtidas {
+    color: var(--texto-secundario);
+    font-weight: 300;
+}
+.comentarios {
+    text-align: right;
+    color: var(--texto-secundario);
+    font-weight: 300;
+}
