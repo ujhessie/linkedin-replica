@@ -210,13 +210,17 @@ section {
 .cards-destaques {
     width: 100%;
     display: flex;
+    overflow-x: auto;
     justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
 }
 .card {
     border: 1px solid var(--texto-secundario);
     border-radius: 10px;
     box-sizing: border-box;
     width: 230px;
+    min-width: 230px;
 }
 .categoria-destaque {
     padding: 10px;
@@ -249,4 +253,13 @@ section {
     text-align: right;
     color: var(--texto-secundario);
     font-weight: 300;
+}
+
+
+
+
+/* SECTION ATIVIDADES */
+.atividades {
+    padding: 20px;
+    
 }
